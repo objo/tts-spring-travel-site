@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+div.navbar-div {
+  background-color: #000000;
+}
+
+ul.navbar {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+ul.navbar li a{
+  float: left;
+  padding: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ul.navbar li a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.clearfix {
+  clear: both;
+}
