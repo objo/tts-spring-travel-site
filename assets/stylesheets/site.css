@@ -2,6 +2,23 @@ body {
   margin: 0;
 }
 
+h1.title {
+  text-align: center;
+}
+
+div.left-side {
+  background-color: #b2b2b2;
+  float: left;
+  width: 25%;
+}
+
+div.right-side {
+  background-color: #d9d9d9;
+  margin-left: 10px;
+  float: right;
+  width: 65%;
+}
+
 div.navbar-div {
   background-color: #000000;
 }
@@ -22,6 +39,14 @@ ul.navbar li a{
 ul.navbar li a:hover {
   background-color: #ffffff;
   color: #000000;
+}
+
+.first-word {
+  color: red;
+}
+
+.big {
+  font-size: 48px;
 }
 
 .clearfix {
